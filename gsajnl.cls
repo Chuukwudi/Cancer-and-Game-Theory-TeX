@@ -116,8 +116,10 @@
 % color2 defined by the specific article type style file
 
 % Bibliography
-\usepackage{natbib} \bibpunct{(}{)}{;}{author-year}{}{,}
-\bibliographystyle{genetics}
+
+\usepackage{natbib} %\bibpunct{(}{)}{;}{author-year}{}{,}
+\setcitestyle{semicolon}
+\bibliographystyle{abbrvnat}
 \addto{\captionsenglish}{\renewcommand{\refname}{Literature cited}}
 \setlength{\bibsep}{0.0pt}
 
